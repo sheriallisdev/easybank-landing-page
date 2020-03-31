@@ -94,30 +94,17 @@ img {
   z-index: 1;
 }
 
-.hamburger {
-  position: relative;
-  background-color: var(--grayish-blue);
-  width: 20px;
-  height: 2px;
-  display: block;
+.menu-toggle {
+  border: none;
+  background-color: var(--white);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-.hamburger::before,
-.hamburger::after {
-  position: absolute;
-  content: "";
-  display: block;
-  width: 20px;
-  height: 2px;
-  background-color: var(--grayish-blue);
-}
-
-.hamburger::before {
-  top: -5px;
-}
-
-.hamburger::after {
-  top: 5px;
+.menu-icon__close {
+  display: none;
 }
 
 .header__container {
